@@ -67,7 +67,6 @@ def main():
 
         situacao, naf = calcular_situacao(media, faltas, total_aulas)
 
-
         # Atualizar os valores no Google Sheets
         update_values = [
             [faltas, p1, p2, p3, situacao, naf]
@@ -85,7 +84,4 @@ def main():
         print(f"Aluno na linha {i + 4}: Situação atualizada para {situacao} (NAF: {naf})")
 
 if __name__ == '__main__':
-    main()
-
-
-    
+    main() 
