@@ -17,7 +17,7 @@
 
 <h2># :hammer: Funcionalidades do projeto</h2>
 
-<h3>- `Funcionalidade 1`: Calcular a situação de cada aluno baseado na média das 3 provas (P1, P2 e P3), conforme a  tabela: 
+<h3>- Funcionalidade 1: Calcular a situação de cada aluno baseado na média das 3 provas (P1, P2 e P3), conforme a  tabela: 
 
 Média (m) Situação:
 
@@ -27,11 +27,11 @@ m<5  - Reprovado por Nota
 
 m>=7  - Aprovado </h3>
 
-<h3>- `Funcionalidade 2`: Caso o número de faltas ultrapasse 25% do número total de aulas o aluno terá a situação  "Reprovado por Falta", independente da média.  
+<h3>- Funcionalidade 2: Caso o número de faltas ultrapasse 25% do número total de aulas o aluno terá a situação  "Reprovado por Falta", independente da média.  
 Caso a situação seja "Exame Final" é necessário calcular a "Nota para Aprovação Final"(naf) de  cada aluno de acordo com seguinte fórmula: 
 
 5 <= (m + naf)/2</h3>
 
-<h3>- `Funcionalidade 3`: Caso a situação do aluno seja diferente de "Exame Final", preencha o campo "Nota para  Aprovação Final" com 0.  </h3>
+<h3>- Funcionalidade 3: Caso a situação do aluno seja diferente de "Exame Final", preencha o campo "Nota para  Aprovação Final" com 0.  </h3>
 
-<h3>- `Funcionalidade 4`: Arredondar o resultado para o próximo número inteiro (aumentar) caso necessário. Utilizar linhas de logs para acompanhamento das atividades da aplicação. </h3>
+<h3>- Funcionalidade 4: Arredondar o resultado para o próximo número inteiro (aumentar) caso necessário. Utilizar linhas de logs para acompanhamento das atividades da aplicação. </h3>
